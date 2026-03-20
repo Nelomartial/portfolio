@@ -1,0 +1,61 @@
+{
+  "name": "Project",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Project title"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "Quant",
+        "Algo",
+        "AI",
+        "Data Eng",
+        "Software Eng"
+      ],
+      "description": "Project category"
+    },
+    "summary": {
+      "type": "string",
+      "description": "2-sentence summary of the project"
+    },
+    "deep_dive": {
+      "type": "string",
+      "description": "Full detailed description of the project"
+    },
+    "tech_stack": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Technologies used"
+    },
+    "link_url": {
+      "type": "string",
+      "description": "URL to code repository or live demo"
+    },
+    "link_type": {
+      "type": "string",
+      "enum": [
+        "View Code",
+        "Live Demo"
+      ],
+      "description": "Type of external link"
+    },
+    "image_url": {
+      "type": "string",
+      "description": "Optional cover image URL"
+    },
+    "sort_order": {
+      "type": "number",
+      "description": "Display order"
+    }
+  },
+  "required": [
+    "title",
+    "category",
+    "summary"
+  ]
+}
