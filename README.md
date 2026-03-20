@@ -98,15 +98,7 @@ The app will be available at `http://localhost:3000`
 
 ### Update Contact Information
 
-Edit `src/components/portfolio/ContactBar.jsx` and `src/components/portfolio/Footer.jsx`:
-```javascript
-const CONTACTS = {
-  email: "your-email@example.com",
-  phone: "+1234567890",
-  github: "https://github.com/yourname",
-  linkedin: "https://linkedin.com/in/yourname",
-};
-```
+
 
 ### Modify Projects
 
