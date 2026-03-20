@@ -9,7 +9,7 @@ import { Mail, Phone, Github, Linkedin, Twitter } from "lucide-react";
 const CONTACTS = {
   email: "nelomartial@yahoo.com",
   phone: "+33669233372",
-  github: "https://github.com/cyrille-nelo",
+  github: "https://github.com/Nelomartial",
   linkedin: "https://linkedin.com/in/cyrille-nelo",
 };
 

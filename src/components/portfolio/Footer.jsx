@@ -8,7 +8,7 @@ import { Mail, Github, Linkedin, Twitter, Phone } from "lucide-react";
 const CONTACTS = {
   email: "nelomartial@yahoo.com",      // Replace with your email
   phone: "+33669233372",           // Replace with your phone
-  github: "https://github.com/cyrille-nelo",    // Replace with your GitHub
+  github: "https://github.com/Nelomartial",    // Replace with your GitHub
   linkedin: "https://linkedin.com/in/cyrille-nelo", // Replace with your LinkedIn
 };
 
