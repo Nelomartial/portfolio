@@ -10,8 +10,8 @@
     "lint:fix": "eslint . --fix",
     "typecheck": "tsc -p ./jsconfig.json",
     "preview": "parcel index.html",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+  "prepare-pages": "rm -rf docs && mkdir docs && cp -r dist/* docs",
+  "deploy-docs": "npm run build && npm run prepare-pages && git add docs && git commit -m \"Deploy\" && git push origin main"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.3",
